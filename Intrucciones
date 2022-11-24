@@ -1,0 +1,16 @@
+Escribir un programa para controlar las llamadas en una centralita.
+
+
+En la centralita se registran las llamadas. Es posible que desee utilizar una matriz para almacenar todas las llamadas.
+
+Todas las llamadas tienen el número de origen de la llamada, el número de destino, duración en segundos y la franja horaria en la que se realizó la llamada (Banda 1, 2 o 3).
+
+La centralita tendrá un método print( ) que imprimirá todas las llamadas, y otro print( ) que imprimirá los datos de la llamada dándole la orden de llamada.
+
+Hay dos tipos de llamadas:
+
+• Las llamadas locales cuestan 15 céntimos el segundo.
+
+• Y llamadas provinciales según la franja horaria en que cueste la conducta: 20 céntimos en la banda 1, 25 céntimos en la banda 2 y 30 céntimos en la banda 3, cada segundo.
+
+Desarrolle una clase llamada Ejercicio5. en su método principal crea una centralita, registra varios tipos y llamadas diferentes a la centralita e imprime el informe del número total de llamadas y la facturación total.
